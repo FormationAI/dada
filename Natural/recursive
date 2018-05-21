@@ -10,7 +10,7 @@
 
 in  let embed =
             λ(fa : Optional Natural)
-          → Optional/fold Natural fa Natural (λ(a : Natural) → a + +1) +0
+          → Optional/fold Natural fa Natural (λ(a : Natural) → a + 1) 0
 
 in  (   { cata    = cata
         , embed   = embed
