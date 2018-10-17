@@ -1,1 +1,0 @@
-λ(f : Type → Type) → ∀(a : Type) → ∀(algebra : f a → a) → a
