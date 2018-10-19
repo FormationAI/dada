@@ -1,1 +1,0 @@
-\(a : Type) -> { eq : a -> a -> Bool }
